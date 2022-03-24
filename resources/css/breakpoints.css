@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1300px) {
+    h1 {
+        font-size: 8rem;
+    }
+    h2 {
+        font-size: 6rem;
+    }
+    header {
+        margin-top: 8rem;
+        text-align: right;
+        padding: 1rem 0;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+
+    }
+    header video {
+        float: none;
+        width: 75%;
+        height: auto;
+    }
+    header h1, h4 {
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    p, li, a, div, span {
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2.5rem;
+    }
+    h4 {
+        font-size: 2rem;
+    }
+    h5 {
+        font-size: 1.5rem;
+    }
+    h6 {
+        font-size: 1rem;
+    }
+    #contact img {
+        width: 200px;
+        height: 200px;
+    }
+    header video {
+        float: none;
+        width: 100%;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    nav, header, section, footer {
+        width: 100%;
+    }
+    #about, #community {
+        padding: 0 2rem;
+        width: 90%;
+    }
+    .window {
+        height: 15rem;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    nav {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      header video {
+          margin-top: 5%;
+      }
+}
